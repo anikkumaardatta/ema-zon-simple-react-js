@@ -1,0 +1,21 @@
+.header_nav{
+    background-color: darkslategray;
+
+}
+.nav_container{
+    max-width: 1280px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    font-weight: 400;
+    margin-left: 10px;
+}.nav_menu a:hover{
+    color: #ffae35;
+}
