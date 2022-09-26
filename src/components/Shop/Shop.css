@@ -4,9 +4,22 @@
 }
 .cart_container{
     background-color: #ffe0b3;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    right: 0;
+    top: 80px;
 }
 .product_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
+    margin: 100px 50px;
+}
+.cart_title{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.cart_info{
+    padding: 25px;
 }

@@ -1,7 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Product.css'
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 const Product = (props) => {
-    console.log(props.product);
     const {name, price, img, ratings, seller, ratingsCount} = props.product;
     return (
         <div className='product'>
@@ -13,8 +14,8 @@ const Product = (props) => {
                 <small>Ratings: {ratings} Stars</small><br />
                 <small>Total {ratingsCount} rating.</small>
             </div>
-            <button className='button_cart'>
-                Add To Cart
+            <button onClick={()=>props.hendleAddToCart(props.product)} className='button_cart'>
+                Add To Cart <FontAwesomeIcon icon={faCartPlus} />
             </button>
             
         </div>
