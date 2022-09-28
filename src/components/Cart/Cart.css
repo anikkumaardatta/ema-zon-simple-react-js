@@ -1,0 +1,14 @@
+.cart_info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.cart_info p{
+    margin: 8px 0;
+}
+.total_price{
+    font-size: 1.5rem;
+}
+.value{
+    text-align: right;
+}

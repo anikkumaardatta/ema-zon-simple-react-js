@@ -19,10 +19,9 @@
 .cart_title{
     text-align: center;
     font-size: 1.8rem;
+    margin-bottom: 0;
+    font-weight: 600;
 }
 .cart_info{
     padding: 25px;
-}
-.total_proce{
-    font-size: 1.5rem;
 }
